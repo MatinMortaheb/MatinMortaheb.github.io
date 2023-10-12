@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Portfolio</title>
+		<title>Matin Mortaheb</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -53,15 +53,25 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="images/banner.jpeg" alt="" />
+									<img src="images/banner2.jpeg" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
 										<h3>About</h3>
 									</header>
-									<p> I am a PhD candidate in the Electrical and Computer Engineering Department at the University of Maryland, College Park.</p>
-									<p> My research interests include Personalized federated learning, Multi-task learning, and Semantic Communication. </p>
-									<p>  </p>
+									<p> I am a PhD candidate in the Electrical and Computer Engineering Department at the University of Maryland, being advised by <a href="https://user.eng.umd.edu/~ulukus/">Prof. Sennur Ulukus</a>. </p>
+									<p> My research interests include Wireless Communication, federated learning, and Semantic Communication.
+									Here are some Federated Learning problems that I am currently working on:
+									<ul> <li> Personalization </li>
+									<li> Statistical Heterogeneity (Non-I.I.D) </li>
+									<li> Communication Effeciency </li>
+									</ul>
+									Here are some Semantic Communication problems that I am currently working on:
+									<ul>
+									<li> End-to-end Semantic Communication </li>
+									<li> Semantic Multi-user Communication </li>
+									<li> Semantic Multi-resolution Communication </li>
+									</ul> </p>
 								</div>
 							</section>
 
@@ -69,13 +79,13 @@
 							<section id="two">
 								<div class="container">
 									<h3>News</h3>
-									<p> [Jul. 2022] Our paper "Dynamic Resource Management for Providing QoS in Drone Delivery Systems" is accepted to IEEE International Conference on Intelligent Transportation (ITSC 2022).</p>
-									<p> [Jan. 2022] Our paper "Reinforcement Learning-aided Safe Planning for Aerial Robots to Collect Data in Dynamic Environments" is accepted to IEEE Internet of Things Journal.</p>
-									<p> [Jun. 2021] Our paper "Distributed Deep Reinforcement Learning for Intelligent Traffic Monitoring with a Network of Aerial Robots" is accepted to IEEE International Conference on Intelligent Transportation (ITSC 2021).</p>
-									<p> [Dec. 2020] Our paper "Trajectory Design for the Aerial Base Stations to Improve Cellular Network Performance" is accepted to IEEE Transactions on Vehicular Technology.</p>
-									<p> [Aug. 2020] Our paper "Federated Learning for Cellular-connected UAVs: Radio Mapping and Path Planning" is accepted to IEEE GLOBECOM 2020.</p>
-									<p> [Jul. 2020] Our paper "No Cross-Validation Required: An Analytical Framework for Regularized Mixed-Integer Problems" is accepted to IEEE Communication Letters.</p>
-									<p> [Jan. 2020] Our paper "A Double Q-Learning Approach for Navigation of Aerial Vehicles with Connectivity Constraint" is accepted to IEEE ICC 2020.</p>
+									<p> [Sep. 2023] Our paper "Semantic Multi-Resolution Communications" is accepted to IEEE Global Communications Conference, Kuala Lumpur, Malaysia, December 2023.</p>
+									<p> [Jan. 2023] Our paper "Personalized decentralized multi-task learning over dynamic communication
+graph" is accepted to IEEE Conference on Information Sciences and Systems, Baltimore, MD, March 2023.</p>
+									<p> [Oct. 2022] Our paper "Hierarchical over-the-air FedGradNorm" is accepted to 56th Asilomar Conference on Signals, Systems and Computers, Pacific Grove, CA, October 2022.</p>
+									<p> [Sep. 2022] Our paper "FedGradNorm: personalized federated gradient- normalized
+multi-task learning" is accepted to EEE International Workshop on Signal Processing Advances in Wireless Communications, Oulu, Finland, July 2022.</p>
+									
 									<!-- <ul class="feature-icons">
 										<li class="icon solid fa-code">Write all the code</li>
 										<li class="icon solid fa-cubes">Stack small boxes</li>
@@ -91,42 +101,51 @@
 							<section id="three">
 								<div class="container">
 									<h3>Selected Research</h3>
-									<h4><span style="color: #28B463"> Path Planning and Fleet Management for UAVs</span> </h4>
+									<h4><span style="color: #28B463"> DL-based Video Streaming:</span> </h4>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/RLIoT.png"  width="240" height="220" alt="" /></a>
+											<a href="#" class="image"><img src="images/Fluctionations.png"  width="240" height="220" alt="" /></a>
 											<div class="inner">
-												<h4><a href="https://ieeexplore.ieee.org/abstract/document/9687843" target="_blank"> Reinforcement Learning-aided Safe Planning for Aerial Robots to Collect Data in Dynamic Environments</a> <br \></h4>
-												<h6>We formulate the scheduling and path planning problems for the UAV. The goal of the scheduling problem is to find the sequence of nodes that the UAV will visit to complete the data collection task in the shortest possible time, ensuring that it does not run out of energy during its mission. We express this problem as a mixed-integer nonlinear problem and propose an efficient algorithm to solve the aforementioned NP-hard problem in polynomial time. Path planning problem aims to find a collision-free path for the UAV. While the state-of-the-art schemes have focused on solving the path planning problem in static environments, we study the problem in a dynamic environment with moving obstacles. We develop an algorithm that works on both static and dynamic environments. Our method combines deep reinforcement learning (RL) with graph-based global path planning algorithms to find a collision-free path for the UAV. One important advantage of our RL-based method over the existing studies is its map independency, which allows us to transform the agent’s learning from one environment to another.</h6>
+												<h4><a href="https://arxiv.org/abs/2310.06857" target="_blank"> Deep Learning-Based Real-Time Rate Control for Live Streaming on Wireless Networks</a> <br \></h4>
+												<h6>Providing wireless users with high-quality video content has become increasingly important. However, ensuring consistent video quality poses challenges due to variable encoded bitrate caused by dynamic video content and fluctuating channel bitrate caused by wireless fading effects. Suboptimal selection of encoder parameters can lead to video quality loss due to underutilized bandwidth or the introduction of video artifacts due to packet loss. To address this, a real-time deep learning based H.264 controller is proposed. This controller leverages instantaneous channel quality data driven from the physical layer, along with the video chunk, to dynamically estimate the optimal encoder parameters with a negligible delay in real-time. The objective is to maintain an encoded video bitrate slightly below the available channel bitrate. Experimental results, conducted on both QCIF dataset and a diverse selection of random videos from public datasets, validate the effectiveness of the approach. Remarkably, improvements of 10-20 dB in PSNR with repect to the state-of-the-art adaptive bitrate video streaming is achieved, with an average packet drop rate as low as 0.002.</h6>
+											</div>
+										</article>
+										<h4><span style="color: #28B463"> Semantic Communication </span> </h4>
+										<article>
+											<a href="#" class="image"><img src="images/Airport_example.png"  width="175" height="170" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://arxiv.org/abs/2308.11604" target="_blank"> Semantic Multi-Resolution Communications</a> <br \></h4>
+												<h6>Deep learning based joint source-channel coding (JSCC) has demonstrated significant advancements in data reconstruction compared to separate source-channel coding (SSCC). This superiority arises from the suboptimality of SSCC when dealing with finite block-length data. Moreover, SSCC falls short in reconstructing data in a multi-user and/or multi-resolution fashion, as it only tries to satisfy the worst channel and/or the highest quality data. To overcome these limitations, we propose a novel deep learning multi-resolution JSCC framework inspired by the concept of multi-task learning (MTL). This proposed framework excels at encoding data for different resolutions through hierarchical layers and effectively decodes it by leveraging both current and past layers of encoded data. Moreover, this framework holds great potential for semantic communication, where the objective extends beyond data reconstruction to preserving specific semantic attributes throughout the communication process. These semantic features could be crucial elements such as class labels, essential for classification tasks, or other key attributes that require preservation. Within this framework, each level of encoded data can be carefully designed to retain specific data semantics. As a result, the precision of a semantic classifier can be progressively enhanced across successive layers, emphasizing the preservation of targeted semantics throughout the encoding and decoding stages. We conduct experiments on MNIST and CIFAR10 dataset. The experiment with both datasets illustrates that our proposed method is capable of surpassing the SSCC method in reconstructing data with different resolutions, enabling the extraction of semantic features with heightened confidence in successive layers. This capability is particularly advantageous for prioritizing and preserving more crucial semantic features within the datasets.</h6>
+											</div>
+										</article>
+										<h4><span style="color: #28B463"> Personalized Federated Learning </span> </h4>
+										<article>
+											<a href="#" class="image"><img src="images/Celeba_task_graph.jpg"  width="175" height="170" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://ieeexplore.ieee.org/abstract/document/10089777" target="_blank">Personalized Decentralized Multi-Task Learning Over Dynamic Communication Graphs</a> <br \></h4>
+												<h6>Decentralized and federated learning algorithms face data heterogeneity as one of the biggest challenges, especially when users want to learn a specific task. Even when personalized headers are used concatenated to a shared network (PF-MTL), aggregating all the networks with a decentralized algorithm can result in performance degradation as a result of heterogeneity in the data. Our algorithm uses exchanged gradients to calculate the correlations among tasks automatically, and dynamically adjusts the communication graph to connect mutually beneficial tasks and isolate those that may negatively impact each other. This algorithm improves the learning performance and leads to faster convergence compared to the case where all clients are connected to each other regardless of their correlations. We conduct experiments on a synthetic Gaussian dataset and a large-scale celebrity attributes (CelebA) dataset. The experiment with the synthetic data illustrates that our proposed method is capable of detecting tasks that are positively and negatively correlated. Moreover, the results of the experiments with CelebA demonstrate that the proposed method may produce significantly faster training results than fully-connected networks.</h6>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/Drone_Delivery.png"  width="175" height="240" alt="" /></a>
+											<a href="#" class="image"><img src="images/Fedgradnorm.jpg"  width="175" height="240" alt="" /></a>
 											<div class="inner">
-												<h4><a href="https://arxiv.org/abs/2103.04015" target="_blank"> Dynamic Resource Management for Providing QoS in Drone Delivery Systems</a> <br \></h4>
-												<h6>Drones have been considered as an alternative means of package delivery to reduce the delivery cost and time. Due to the battery limitations, the drones are best suited for last-mile delivery, i.e., the delivery from the package distribution centers (PDCs) to the customers. Since a typical delivery system consists of multiple PDCs, each having random and time-varying demands, the dynamic drone-to-PDC allocation would be of great importance in meeting the demand in an efficient manner. In this paper, we study the dynamic UAV assignment problem for a drone delivery system with the goal of providing measurable Quality of Service (QoS) guarantees.</h6>
+												<h4><a href="https://ieeexplore.ieee.org/abstract/document/9833969" target="_blank"> FedGradNorm: Personalized Federated Gradient-Normalized Multi-Task Learning</a> <br \></h4>
+												<h6>Multi-task learning (MTL) is a novel framework to learn several tasks simultaneously with a single shared network where each task has its distinct personalized header network for fine-tuning. MTL can be implemented in federated learning settings as well, in which tasks are distributed across clients. In federated settings, the statistical heterogeneity due to different task complexities and data heterogeneity due to non-iid nature of local datasets can both degrade the learning performance of the system. In addition, tasks can negatively affect each other's learning performance due to negative transference effects. To cope with these challenges, we propose FedGradNorm which uses a dynamic-weighting method to normalize gradient norms in order to balance learning speeds among different tasks. FedGradNorm improves the overall learning performance in a personalized federated learning setting. We provide convergence analysis for FedGradNorm by showing that it has an exponential convergence rate. We also conduct experiments on multi-task facial landmark (MTFL) and wireless communication system dataset (RadComDynamic). The experimental results show that our framework can achieve faster training performance compared to equal-weighting strategy. In addition to improving training speed, FedGradNorm also compensates for the imbalanced datasets among clients.</h6>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/Traffic.png" width="200" height="200" alt="" /></a>
+											<a href="#" class="image"><img src="images/HOTA.png" width="200" height="200" alt="" /></a>
 											<div class="inner">
-												<h4> Distributed Deep Reinforcement Learning for Intelligent Traffic Monitoring with a Network of Aerial Robots</h4>
-												<h6>UAV-assisted traffic monitoring in urban areas is an emerging application that can play a key role in intelligent transportation systems. We study the traffic monitoring problem in a road network using a team of aerial robots. To address the stochastic and time-varying nature of the traffic events, we define an uncertainty metric for each location of the road network and formulate a path planning problem for the aerial robots to minimize the network's average uncertainty. We express this problem as a partially observable Markov decision process (POMDP) and propose a distributed and scalable algorithm based on deep reinforcement learning to solve it. We evaluate the performance of our proposed algorithm in both scenarios for a real road network topology and demonstrate its functionality in a traffic monitoring system.</h6>
+												<h4><a href="https://ieeexplore.ieee.org/abstract/document/10052054" target="_blank"> Hierarchical Over-the-Air FedGradNorm</a> <br \></h4>
+												<h6>Multi-task learning (MTL) is a learning paradigm to learn multiple related tasks simultaneously with a single shared network where each task has a distinct personalized header network for fine-tuning. MTL can be integrated into a federated learning (FL) setting if tasks are distributed across clients and clients have a single shared network, leading to personalized federated learning (PFL). To cope with statistical heterogeneity in the federated setting across clients which can significantly degrade the learning performance, we use a distributed dynamic weighting approach. To perform the communication between the remote parameter server (PS) and the clients efficiently over the noisy channel in a power and bandwidth-limited regime, we utilize over-the-air (OTA) aggregation and hierarchical federated learning (HFL). Thus, we propose hierarchical over-the-air (HOTA) PFL with a dynamic weighting strategy which we call HOTA-FedGradNorm. Our algorithm considers the channel conditions during the dynamic weight selection process. We conduct experiments on a wireless communication system dataset (RadComDynamic). The experimental results demonstrate that the training speed with HOTA-FedGradNorm is faster compared to the algorithms with a naive static equal weighting strategy. In addition, HOTA-FedGradNorm provides robustness against the negative channel effects by compensating for the channel conditions during the dynamic weight selection process.</h6>
 											</div>
 										</article>
+										<h4><span style="color: #28B463"> Wireless Communication </span> </h4>
 										<article>
-											<a href="#" class="image"><img src="images/FL.png" alt="" /></a>
+											<a href="#" class="image"><img src="images/Beam.png" width="200" height="200" alt="" /></a>
 											<div class="inner">
-												<h4>Federated Learning for Cellular-connected UAVs: Radio Mapping and Path Planning</h4>
-												<h6>In many applications such as monitoring and transportation, the drones need to maintain a reliable Internet connection during their flights. This is essential to support the command and data flows between the UAVs and the application's servers. We study the UAV path planning under connectivity constraints for a multi-UAV system. As the network's connectivity model depends on its topology, the corresponding path planning problem is non-convex and challenging to solve. We reformulate the problem to convert it to a mathematically more tractable form. To solve the reformulated problem, we propose a two-step algorithm. In the first step, by using a distributed optimization technique, called Federated Learning (FL), the UAVs collaboratively build a global model of the coverage (outage) probability in the environment. In this method, each UAV uses its data to update the global model locally. Accordingly, the UAVs do not need to share their collected information with a centralized node to execute the training task. Hence, the training process is executed in a distributed manner. In the second step, we use the resulting global model to design the paths of the UAVs. To achieve this goal, we propose a path planning algorithm based on rapidly-exploring random trees, which is a sampling-based path planning algorithm. Our algorithm guarantees that the connectivity requirement of the UAVs is satisfied during their flight.</h6>
-											</div>
-										</article>
-										<h4><span style="color: #28B463"> Optimization Theory </span> </h4>
-										<article>
-											<a href="#" class="image"><img src="images/CL.png"  width="175" height="170" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://ieeexplore.ieee.org/abstract/document/9153858" target="_blank"> No Cross-Validation Required: An Analytical Framework for Regularized Mixed-Integer Problems</a> <br \></h4>
-												<h6>We develop a method to obtain the optimal value for the regularization coefficient in a general mixed-integer problem (MIP). This approach eliminates the cross-validation performed in the existing penalty techniques to obtain a proper value for the regularization coefficient. We obtain this goal by proposing an alternating method to solve MIPs. First, via regularization, we convert the MIP into a more mathematically tractable form. Then, we develop an iterative algorithm to update the solution along with the regularization (penalty) coefficient. We show that our update procedure guarantees the convergence of the algorithm. Moreover, assuming the objective function is continuously differentiable, we derive the convergence rate, a lower bound on the value of regularization coefficient, and an upper bound on the number of iterations required for the convergence.</h6>
+												<h4><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ett.4135" target="_blank"> Beamforming-based random access protocol for massive MIMO systems</a> <br \></h4>
+												<h6>Massive multiple-input multiple output (MIMO) systems provide a promising technology for the next generation of wireless communication systems (5G). In the present research, a novel random access (RA) protocol is proposed based on the beamforming properties to admit as many user equipment (UE) as possible, enhance the system performance, and manage the limited number of orthogonal pilots simultaneously. First of all, the proposed RA protocol is studied theoretically to find out formulas for average number of users who will have access to the base station (BS). The result shows the same number of UEs can access the BS as conventional protocols such as multichannel RA solutions. However, in contrary to the conventional protocols, the proposed protocol guaranties that the UEs are located in separate locations, thus, the signal to interference ratio (SINR) of the admitted users are enhanced in multiuser MIMO data transmission phase. A series of enhancements are then proposed to save the orthogonal pilots and to increase the average admitted users significantly. It is shown that, using our novel protocols, we can almost admit as many users as the number of antennas in the BS, using only a fraction of orthogonal pilots needed in conventional protocols.</h6>
 											</div>
 										</article>
 									</div>
@@ -145,69 +164,41 @@
 
 
 
+									<h4> <span style="color: #28B463"> Conference Papers</span> </h4>
+									<a href="https://arxiv.org/abs/2310.06857" target="_blank"> &#8226; Deep learning-based real-time rate
+control for live streaming on wireless networks</a> <br>
+									<b> <span style="color: #46A275"> M. Mortaheb  </span> </b>, M. A. Khojastepour, S. T. Chakradhar, and S. Ulukus
+									<p> <b> <span style="color: #000000"> IEEE ICMLCN (2024)</span> </b> </p>
+
+
+									<a href="https://https://arxiv.org/abs/2308.11604" target="_blank"> &#8226; Semantic multi-resolution
+communications</a> <br>
+									<b> <span style="color: #46A275"> M. Mortaheb  </span> </b>, M. A. Khojastepour, S. T. Chakradhar, and S. Ulukus
+									<p> <b> <span style="color: #000000"> IEEE GLOBECOM (2023)</span> </b> </p>
+
+
+									<a href="https://ieeexplore.ieee.org/abstract/document/10089777" target="_blank"> &#8226; Personalized decentralized multi-task learning over dynamic communication graph</a> <br>
+									<b> <span style="color: #46A275"> M. Mortaheb  </span> </b> and S. Ulukus
+									<p> <b> <span style="color: #000000"> IEEE CISS (2023)</span> </b> </p>
+
+									<a href="https://ieeexplore.ieee.org/abstract/document/10052054" target="_blank"> &#8226; Hierarchical over-the-air FedGradNorm</a> <br>
+									C. Vahapoglu, <b> <span style="color: #46A275"> M. Mortaheb  </span> </b>, and S. Ulukus
+									<p> <b> <span style="color: #000000"> IEEE ASILOMAR (2022)</span> </b> </p>
+
+									<a href="https://ieeexplore.ieee.org/abstract/document/9833969" target="_blank"> &#8226; FedGradNorm: personalized federated gradient- normalized multi-task learning</a> <br>
+									<b> <span style="color: #46A275"> M. Mortaheb  </span> </b>, C. Vahapoglu, and S. Ulukus
+									<p> <b> <span style="color: #000000"> IEEE SPAWC (2022)</span> </b> </p>
+
+									
 									<h4><span style="color: #28B463"> Journal Publications</span> </h4>
-									<a href="https://ieeexplore.ieee.org/document/9687843" target="_blank"> &#8226; Reinforcement Learning-aided Safe Planning for Aerial Robots to Collect Data in Dynamic Environments</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi  </span> </b> and E. S. Sousa
-									<p> <b> <span style="color: #000000"> IEEE Internet of Things Journal (2022)</span> </b> </p>
+									<a href="https://www.mdpi.com/1999-4893/15/11/421" target="_blank"> &#8226; Personalized federated multi-task learning over wireless fading channels.</a> <br>
+									<b> <span style="color: #46A275"> M. Mortaheb  </span> </b>, C. Vahapoglu, and S. Ulukus
+									<p> <b> <span style="color: #000000"> MDPI Algorithms (2022)</span> </b> </p>
 
 
-									<a href="https://ieeexplore.ieee.org/document/9314279" target="_blank"> &#8226; Trajectory Design for the Aerial Base Stations to Improve Cellular Network Performance</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi  </span> </b> and E. S. Sousa
-									<p> <b> <span style="color: #000000"> IEEE Transactions on Vehicular Technology (2021)</span> </b> </p>
-
-									<a href="https://ieeexplore.ieee.org/abstract/document/9153858" target="_blank"> &#8226; No Cross-Validation Required: An Analytical Framework for Regularized Mixed-Integer Problems</a> <br>
-									B. Soleimani, <b> <span style="color: #46A275"> B. Khamidehi,  </span> </b> and M. Sabbaghian
-									<p> <b> <span style="color: #000000"> IEEE Communication Letters (2020)</span> </b> &nbsp; &nbsp; <a href="https://arxiv.org/abs/2008.01292" target="_blank">    [Extended Version]</a> </p>
-
-									<a href="https://ieeexplore.ieee.org/abstract/document/8031344" target="_blank"> &#8226; Resource Allocation for SC-FDMA Femtocell Networks</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi  </span> </b> and M. Sabbaghian
-									<p> <b> <span style="color: #000000"> IEEE Transactions on Vehicular Technology (2017)</span> </b> </p>
-
-
-									<a href="https://ieeexplore.ieee.org/abstract/document/7529170" target="_blank"> &#8226; Joint Sub-Channel Assignment and Power Allocation in Heterogeneous Networks: An Efficient Optimization Method</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi,  </span> </b> A. Rahmati, and M. Sabbaghian
-									<p> <b> <span style="color: #000000"> IEEE Communication Letters (2016)</span> </b> </p>
-									<p> </p>
-
-
-
-									<h4> <span style="color: #28B463"> Refereed Conference Proceedings</span> </h4>
-									<a href="https://arxiv.org/abs/2103.04015" target="_blank"> &#8226; Dynamic Resource Management for Providing QoS in Drone Delivery Systems</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi  </span> </b> and E. S. Sousa
-									<p> <b> <span style="color: #000000"> IEEE ITSC (2022)</span> </b> </p>
-
-
-
-									<a href="https://ieeexplore.ieee.org/document/9564459" target="_blank"> &#8226; Distributed Deep Reinforcement Learning for Intelligent Traffic Monitoring with a Network of Aerial Robots</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi  </span> </b> and E. S. Sousa
-									<p> <b> <span style="color: #000000"> IEEE ITSC (2021)</span> </b> </p>
-
-
-
-
-									<a href="https://arxiv.org/abs/2008.10054" target="_blank"> &#8226; Federated Learning for Cellular-connected UAVs: Radio Mapping and Path Planning</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi  </span> </b> and E. S. Sousa
-									<p> <b> <span style="color: #000000"> IEEE GLOBECOM (2020)</span> </b> </p>
-
-									<a href="https://arxiv.org/abs/2002.10563" target="_blank"> &#8226; A Double Q-Learning Approach for Navigation of Aerial Vehicles with Connectivity Constraint</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi  </span> </b> and E. S. Sousa
-									<p> <b> <span style="color: #000000"> IEEE ICC (2020)</span> </b> </p>
-
-									<a href="https://ieeexplore.ieee.org/abstract/document/8904880" target="_blank"> &#8226; Reinforcement Learning-Based Trajectory Design for the Aerial Base Stations</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi  </span> </b> and E. S. Sousa
-									<p> <b> <span style="color: #000000"> IEEE PIMRC (2019)</span> </b> </p>
-
-									<a href="https://ieeexplore.ieee.org/abstract/document/8904357" target="_blank"> &#8226; Power Efficient Trajectory Optimization for the Cellular-Connected Aerial Vehicles</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi  </span> </b> and E. S. Sousa
-									<p> <b> <span style="color: #000000"> IEEE PIMRC (2019)</span> </b> </p>
-
-									<a href="https://ieeexplore.ieee.org/abstract/document/7925672" target="_blank"> &#8226; Green Cloud Computing for Multi Cell Networks</a> <br>
-									M Masoudi, <b> <span style="color: #46A275"> B. Khamidehi, </span> </b> and C. Cavdar
-									<p> <b> <span style="color: #000000"> IEEE WCNC (2017)</span> </b> </p>
-
-									<a href="https://ieeexplore.ieee.org/abstract/document/7564897" target="_blank"> &#8226; Power allocation in uplink LTE femtocells with zero forcing frequency domain equalizer</a> <br>
-									<b> <span style="color: #46A275"> B. Khamidehi,  </span> </b> M. Sabbaghian, and H. Saeedi
-									<p> <b> <span style="color: #000000"> IEEE WCNC (2016)</span> </b> </p>
+									<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ett.4135" target="_blank"> &#8226; Beamforming-based random access protocol for massive MIMO systems.</a> <br>
+									<b> <span style="color: #46A275"> M. Mortaheb  </span> </b> and A. Abbasfar
+									<p> <b> <span style="color: #000000"> WILEY Transactions on Emerging Telecommunications Technologies (2022)</span> </b> </p>
 
 
 
@@ -218,8 +209,8 @@
 							<section id="five">
 								<div class="container">
 									<h3>Contact</h3>
-									Bahen Centre for Information Technology, <br> 40 St George St, Toronto, <br> ON M5S 2E4 <br>
-									<p> Email: [b . Last_Name]@utoronto.ca </p>
+									 8223 Paint Branch Dr, <br> College Park, MD, <br> USA <br>
+									<p> Email: mortaheb@umd.edu </p>
 
 									<a href="https://clustrmaps.com/site/1big4"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=SM5Qz24PH19mYBXwjEl6XfKOL93JHARUa0rpSS2dD4A&cl=ffffff" /></a>
 
